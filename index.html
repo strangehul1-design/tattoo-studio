@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Тату-студия Север: авторские эскизы, опытные мастера и запись на консультацию.">
+  <meta name="theme-color" content="#171713">
+  <title>Север — тату-студия</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Север, на главную">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><path d="M17 1 21 13 33 17 21 21 17 33 13 21 1 17 13 13Z"/></svg>
+      <span>СЕВЕР</span>
+    </a>
+    <nav class="main-nav" aria-label="Основная навигация">
+      <a href="#artists">Мастера</a>
+      <a href="#studio">О студии</a>
+      <a href="#booking">Запись</a>
+    </nav>
+    <a class="header-cta" href="#booking">Записаться <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Тату-студия · Екатеринбург</p>
+        <h1 id="hero-title">ТВОЯ<br>ИСТОРИЯ.<br><em>НАШИ ЛИНИИ.</em></h1>
+        <p class="hero-description">Создаём татуировки, которые не повторяют тренды, а продолжают вас. От первой идеи до финального штриха.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#booking">Выбрать мастера <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#artists">Смотреть работы <span aria-hidden="true">↘</span></a>
+        </div>
+        <div class="hero-facts" aria-label="Преимущества студии">
+          <div><strong>8 лет</strong><span>опыта команды</span></div>
+          <div><strong>1 200+</strong><span>реализованных идей</span></div>
+          <div><strong>100%</strong><span>авторских эскизов</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrap">
+          <img src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=1100&q=85" alt="Мастер создаёт татуировку в студии" class="hero-image">
+          <div class="image-shade"></div>
+          <p class="vertical-note">Искусство остаётся с тобой</p>
+          <div class="hero-stamp" aria-hidden="true">
+            <svg viewBox="0 0 100 100"><defs><path id="circle" d="M50,50 m-36,0 a36,36 0 1,1 72,0 a36,36 0 1,1 -72,0"/></defs><text><textPath href="#circle">СЕВЕР • ТАТУ • СТУДИЯ • </textPath></text><path class="stamp-star" d="M50 32 54 46 68 50 54 54 50 68 46 54 32 50 46 46Z"/></svg>
+          </div>
+        </div>
+        <div class="hero-caption"><span>Работа мастера Алины</span><span>Графика / 2026</span></div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>ГРАФИКА</span><i>✦</i><span>ОЛДСКУЛ</span><i>✦</i><span>МИНИМАЛИЗМ</span><i>✦</i><span>ОРНАМЕНТ</span><i>✦</i><span>ГРАФИКА</span><i>✦</i><span>ОЛДСКУЛ</span><i>✦</i><span>МИНИМАЛИЗМ</span><i>✦</i><span>ОРНАМЕНТ</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="artists section" id="artists" aria-labelledby="artists-title">
+      <div class="section-heading">
+        <div><p class="eyebrow"><span></span> Команда</p><h2 id="artists-title">ВЫБЕРИ СВОЕГО<br>МАСТЕРА</h2></div>
+        <p>У каждого мастера — свой почерк.<br>Найдите того, кто поймёт вашу идею.</p>
+      </div>
+      <div class="artist-grid">
+        <article class="artist-card">
+          <div class="artist-photo">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=85" alt="Мастер Алина Морозова" loading="lazy">
+            <span class="artist-number">01</span><span class="artist-tag">Графика · Ботаника</span>
+          </div>
+          <div class="artist-info"><div><h3>Алина Морозова</h3><p>Тонкие линии, живые фактуры и растительные мотивы.</p></div><button class="artist-select" type="button" data-artist="Алина Морозова" aria-label="Записаться к Алине Морозовой">↗</button></div>
+        </article>
+        <article class="artist-card artist-card-offset">
+          <div class="artist-photo">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Мастер Максим Волков" loading="lazy">
+            <span class="artist-number">02</span><span class="artist-tag">Олдскул · Неотрад</span>
+          </div>
+          <div class="artist-info"><div><h3>Максим Волков</h3><p>Насыщенный цвет, смелые формы и характер без компромиссов.</p></div><button class="artist-select" type="button" data-artist="Максим Волков" aria-label="Записаться к Максиму Волкову">↗</button></div>
+        </article>
+        <article class="artist-card">
+          <div class="artist-photo">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=700&q=85" alt="Мастера Ева Лебедева" loading="lazy">
+            <span class="artist-number">03</span><span class="artist-tag">Минимализм · Надписи</span>
+          </div>
+          <div class="artist-info"><div><h3>Ева Лебедева</h3><p>Лаконичные композиции, символы и точная работа с деталями.</p></div><button class="artist-select" type="button" data-artist="Ева Лебедева" aria-label="Записаться к Еве Лебедевой">↗</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="studio section" id="studio" aria-labelledby="studio-title">
+      <div class="studio-art" aria-hidden="true">
+        <svg viewBox="0 0 500 500"><path d="M250 42c0 105-38 152-127 168 89 16 127 63 127 168 0-105 38-152 127-168-89-16-127-63-127-168Z"/><circle cx="250" cy="210" r="160"/><circle cx="250" cy="210" r="105"/></svg>
+        <span>Твоя идея начинается здесь</span>
+      </div>
+      <div class="studio-copy">
+        <p class="eyebrow"><span></span> О студии</p>
+        <h2 id="studio-title">БЕЗОПАСНО.<br>ОСМЫСЛЕННО.<br><em>НАВСЕГДА.</em></h2>
+        <p>Мы не работаем по шаблонам. Слушаем вашу историю, разрабатываем индивидуальный эскиз и подбираем место с учётом анатомии.</p>
+        <ul class="studio-list">
+          <li><span>01</span>Одноразовые иглы и сертифицированные материалы</li>
+          <li><span>02</span>Бесплатная консультация и правки эскиза</li>
+          <li><span>03</span>Сопровождение до полного заживления</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="booking section" id="booking" aria-labelledby="booking-title">
+      <div class="booking-intro">
+        <p class="eyebrow eyebrow-light"><span></span> Первый шаг</p>
+        <h2 id="booking-title">ДАВАЙ<br>ОБСУДИМ<br><em>ТВОЮ ИДЕЮ</em></h2>
+        <p>Оставьте контакты и выберите удобную дату. На консультации обсудим идею, эскиз, сроки и стоимость.</p>
+        <div class="booking-contact"><span>Есть вопросы?</span><a href="tel:+73432000000">+7 (343) 200-00-00</a></div>
+      </div>
+      <form class="booking-form" id="booking-form">
+        <div class="form-row">
+          <label>Ваше имя<input type="text" name="name" placeholder="Как к вам обращаться?" autocomplete="name" required minlength="2"></label>
+          <label>Телефон<input type="tel" name="phone" placeholder="+7 900 000-00-00" autocomplete="tel" required pattern="[+0-9() -]{10,20}"></label>
+        </div>
+        <div class="form-row">
+          <label>Выберите мастера<select name="artist" id="artist-select" required><option value="" selected disabled>Мастер</option><option>Алина Морозова</option><option>Максим Волков</option><option>Ева Лебедева</option><option value="Любой мастер">Пока не определился</option></select></label>
+          <label>Желаемая дата<input type="text" name="date" id="booking-date" placeholder="ДД.ММ.ГГГГ" inputmode="numeric" autocomplete="off" required pattern="(0[1-9]|[12][0-9]|3[01])\.(0[1-9]|1[0-2])\.[0-9]{4}"></label>
+        </div>
+        <label>Расскажите об идее<textarea name="idea" rows="4" placeholder="Что хотите изобразить? Примерный размер и место на теле"></textarea></label>
+        <label class="consent"><input type="checkbox" required><span>Согласен на обработку данных и подтверждаю, что мне есть 18 лет</span></label>
+        <button class="button button-accent" type="submit">Отправить заявку <span aria-hidden="true">↗</span></button>
+        <p class="form-note">Демонстрационная форма: данные не отправляются на сервер.</p>
+        <div class="form-success" id="form-success" role="status" aria-live="polite" hidden></div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#top"><svg viewBox="0 0 34 34" aria-hidden="true"><path d="M17 1 21 13 33 17 21 21 17 33 13 21 1 17 13 13Z"/></svg><span>СЕВЕР</span></a>
+    <p>Екатеринбург · ул. Ленина, 24<br>Ежедневно с 11:00 до 21:00</p>
+    <p class="footer-note">Татуировка — это личное.<br>Мы просто помогаем ей случиться.</p>
+    <a class="back-to-top" href="#top" aria-label="Наверх">↑</a>
+    <small>© 2026 Студия «Север»</small>
+  </footer>
+</body>
+</html>
